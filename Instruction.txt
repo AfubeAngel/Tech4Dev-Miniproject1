@@ -1,0 +1,1 @@
+Develop a signup page with HTML and CSS with the following details: first name, last name, email, password, and confirm password. then host it on netlify

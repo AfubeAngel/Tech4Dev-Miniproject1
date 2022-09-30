@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*styling the body of the site*/
+body {
+    background-color: white;
+    font-family: "lato", sans-serif;
+    background-image: url("ANGEL\'S\ BOOK\ CLUB-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*The body of the form section*/
+.signupForm { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+/*The title of the form*/
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: pink;
+}
+
+/*The body of the form*/
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 20px 30px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+  
+/*the container and the input features*/
+.inputContainer, .input {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+/*The labels*/
+.label{
+    position: absolute;
+    display:none;
+}
+
+/*The button to register*/
+.submitBtn {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: cell;
+    border: none;
+    font-size: 15px;
+    
+}
+
+.submitBtn:hover {
+    opacity: 0.5;
+    background-color: aqua;
+    padding: 10px 40px;
+}
+
+ 
